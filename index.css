@@ -5,116 +5,40 @@
     box-sizing: border-box;
 }
 
+.h100{
+    height: 100px;
+}
+
+.h300{
+    height: 300px;
+}
+
+.bordo{
+    border: 1px solid black;
+}
+
 .marTop1rem{
     margin-top: 1rem;
 }
 /* Header */
-#headerRow > div:first-child{
-    height: 100px;
-    background-color: red;
-}
-
-#headerRow > div:last-child{
-    height: 100px;
-    background-color: blue;
+header{
+    background-color: rgba(44,62,80,255);
 }
 /* Jumbo */
-#jumboRow > div:first-child{
-    height: 300px;
-    background-color: red;
-}
-
-#jumboRow > div:last-child{
-    height: 100px;
-    background-color: blue;
+#jumbo{
+    background-color: rgba(26,188,156,255);
 }
 /* Portfolio */
-#porTit{
-    height: 100px;
-    background-color: red;
-}
-
-#por1{
-    height: 300px;
-    background-color: blue;
-}
-
-#por2{
-    height: 300px;
-    background-color: green;
-}
-
-#por3{
-    height: 300px;
-    background-color: yellow;
-}
-
-#por4{
-    height: 300px;
-    background-color: red;
-}
-
-#por5{
-    height: 300px;
-    background-color: blue;
-}
-
-#por6{
-    height: 300px;
-    background-color: green;
-}
 /* About */
-#aboTit{
-    height: 100px;
-    background-color: red;
-}
-
-#abo1{
-    height: 300px;
-    background-color: blue;
-}
-
-#abo2{
-    height: 300px;
-    background-color: green;
-}
-
-#abo3{
-    height: 100px;
-    background-color: yellow;
+#about{
+    background-color: rgba(26,188,156,255);
 }
 /* Contact me */
-#conTit{
-    height: 100px;
-    background-color: red;
-}
-
-#con1{
-    height: 300px;
-    background-color: blue;
-}
-
-#con2{
-    height: 100px;
-    background-color: green;
-}
 /* Footer */
-#foo1{
-    height: 300px;
-    background-color: red;
+#info{
+    background-color: rgba(58,84,109,255);
 }
 
-#foo2{
-    height: 300px;
-    background-color: blue;
-}
-
-#foo3{
-    height: 300px;
-    background-color: green;
-}
-
-#foo4{
-    height: 100px;
-    background-color: yellow;
+#copyright{
+    background-color: rgba(44,62,80,255);
 }
