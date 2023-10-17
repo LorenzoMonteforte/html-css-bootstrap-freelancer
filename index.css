@@ -4,26 +4,97 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.marTop1rem{
+    margin-top: 1rem;
+}
 /* Header */
-header{
+#headerRow > div:first-child{
     height: 100px;
     background-color: red;
 }
 
-header > div{
-    height: 100%;
+#headerRow > div:last-child{
+    height: 100px;
+    background-color: blue;
+}
+/* Jumbo */
+#jumboRow > div:first-child{
+    height: 300px;
+    background-color: red;
 }
 
-#a{
-    height: 100%;
+#jumboRow > div:last-child{
+    height: 100px;
+    background-color: blue;
+}
+/* Portfolio */
+#porTit{
+    height: 100px;
+    background-color: red;
 }
 
-#b{
-    height: 100%;
+#por1{
+    height: 300px;
     background-color: blue;
 }
 
-#c{
-    height: 100%;
+#por2{
+    height: 300px;
+    background-color: green;
+}
+
+#por3{
+    height: 300px;
+    background-color: yellow;
+}
+
+#por4{
+    height: 300px;
+    background-color: red;
+}
+
+#por5{
+    height: 300px;
+    background-color: blue;
+}
+
+#por6{
+    height: 300px;
+    background-color: green;
+}
+/* About */
+#aboTit{
+    height: 100px;
+    background-color: red;
+}
+
+#abo1{
+    height: 300px;
+    background-color: blue;
+}
+
+#abo2{
+    height: 300px;
+    background-color: green;
+}
+
+#abo3{
+    height: 100px;
+    background-color: yellow;
+}
+/* Contact me */
+#conTit{
+    height: 100px;
+    background-color: red;
+}
+
+#con1{
+    height: 300px;
+    background-color: blue;
+}
+
+#con2{
+    height: 100px;
     background-color: green;
 }
