@@ -98,3 +98,23 @@
     height: 100px;
     background-color: green;
 }
+/* Footer */
+#foo1{
+    height: 300px;
+    background-color: red;
+}
+
+#foo2{
+    height: 300px;
+    background-color: blue;
+}
+
+#foo3{
+    height: 300px;
+    background-color: green;
+}
+
+#foo4{
+    height: 100px;
+    background-color: yellow;
+}
