@@ -1,0 +1,29 @@
+/* Generals */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header */
+header{
+    height: 100px;
+    background-color: red;
+}
+
+header > div{
+    height: 100%;
+}
+
+#a{
+    height: 100%;
+}
+
+#b{
+    height: 100%;
+    background-color: blue;
+}
+
+#c{
+    height: 100%;
+    background-color: green;
+}
