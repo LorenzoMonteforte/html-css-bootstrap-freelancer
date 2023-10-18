@@ -31,6 +31,10 @@ ul{
     border: 0;
     border-bottom: 1px solid lightgray;
 }
+
+a{
+    text-decoration: none;
+}
 /* Header */
 header{
     background-color: rgba(44,62,80,255);
@@ -55,6 +59,15 @@ header{
 /* Footer */
 #info{
     background-color: rgba(58,84,109,255);
+}
+
+.socialContainer{
+    height: 30px;
+    width: 30px;
+}
+
+#staBoo{
+    color: rgba(26,188,156,255);
 }
 
 #copyright{
