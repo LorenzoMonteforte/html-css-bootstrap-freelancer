@@ -34,6 +34,10 @@ header{
 #jumbo{
     background-color: rgba(26,188,156,255);
 }
+
+#jumbo img{
+    width: 50%;
+}
 /* Portfolio */
 /* About */
 #about{

@@ -1,0 +1,11 @@
+@media only screen and (min-width: 768px){
+    #jumbo img{
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    #jumbo img{
+        width: 15%;
+    }
+}
