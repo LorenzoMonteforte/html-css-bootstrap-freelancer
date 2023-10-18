@@ -5,26 +5,14 @@
     box-sizing: border-box;
 }
 
-.h100{
-    height: 100px;
-}
-
-.h300{
-    height: 300px;
-}
-
-.bordo{
-    border: 1px solid black;
-}
-
-.marTop1rem{
-    margin-top: 1rem;
-}
-
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+a{
+    text-decoration: none;
 }
 
 .inp{
@@ -32,29 +20,21 @@ ul{
     border-bottom: 1px solid lightgray;
 }
 
-a{
-    text-decoration: none;
-}
-/* Header */
-header{
-    background-color: rgba(44,62,80,255);
-}
-/* Jumbo */
-#jumbo{
-    background-color: rgba(26,188,156,255);
+.rettangolini{
+    height: 5px;
+    width: 10%;
 }
 
+.bluScuro{
+    background-color: rgba(44,62,80,255);
+}
+
+.verde{
+    background-color: rgba(26,188,156,255);
+}
+/* Jumbo */
 #jumbo img{
     width: 50%;
-}
-/* Portfolio */
-/* About */
-#about{
-    background-color: rgba(26,188,156,255);
-}
-/* Contact me */
-#send{
-    background-color: rgba(26,188,156,255);
 }
 /* Footer */
 #info{
@@ -68,8 +48,4 @@ header{
 
 #staBoo{
     color: rgba(26,188,156,255);
-}
-
-#copyright{
-    background-color: rgba(44,62,80,255);
 }
