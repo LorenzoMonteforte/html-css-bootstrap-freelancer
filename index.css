@@ -26,6 +26,11 @@ ul{
     margin: 0;
     padding: 0;
 }
+
+.inp{
+    border: 0;
+    border-bottom: 1px solid lightgray;
+}
 /* Header */
 header{
     background-color: rgba(44,62,80,255);
@@ -44,6 +49,9 @@ header{
     background-color: rgba(26,188,156,255);
 }
 /* Contact me */
+#send{
+    background-color: rgba(26,188,156,255);
+}
 /* Footer */
 #info{
     background-color: rgba(58,84,109,255);
