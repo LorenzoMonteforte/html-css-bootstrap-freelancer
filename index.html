@@ -14,7 +14,7 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="bluScuro">
+    <header class="bluScuro position-fixed w-100">
         <!--
         <div class="container-md">
             <div class="row">
@@ -45,8 +45,8 @@
         <nav class="navbar navbar-expand-md">
             <div class="container-md">
               <a class="navbar-brand text-white" href="#">START BOOTSTRAP</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+              <button id="hamburgerContainer" class="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars text-white display-6"></i>
               </button>
               <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0">
@@ -67,7 +67,7 @@
     <!-- Main -->
     <main>
         <!-- Jumbo -->
-        <section id="jumbo" class="verde">
+        <section id="jumbo" class="verde myPadTop5rem">
             <div class="container-md">
                 <div class="row">
                     <div class="col-12 p-3 d-flex flex-column align-items-center">

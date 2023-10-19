@@ -33,7 +33,14 @@ a{
 .verde{
     background-color: rgba(26,188,156,255);
 }
+/* Header */
+#hamburgerContainer:focus{
+    box-shadow: 0 0 0 0;
+}
 /* Jumbo */
+.myPadTop5rem{
+    padding-top: 5rem;
+}
 #jumbo img{
     width: 50%;
 }
